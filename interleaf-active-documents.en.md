@@ -305,8 +305,8 @@ REFERENCES
 
 ----
 
-CCC 0894-3982/94/020075-13 *Received 5 April 1993*
-  1994 by John Wiley & Sons, Ltd. *Revised 12 January 1994*
+CCC 0894-3982/94/020075-13 *Received 5 April 1993*\
+  1994 by John Wiley & Sons, Ltd. *Revised 12 January 1994*\
 © 1998 by University of Nottingham.
 
 ----
