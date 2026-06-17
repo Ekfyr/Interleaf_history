@@ -6,10 +6,10 @@
 
 Paul M. English, Ethan S. Jacobson, Robert A. Morris\*, Kimbo B. Mundy, Stephen D. Pelletier, Thomas A. Polucci, and H. David Scarbro
 
-*Interleaf, Inc.*
-*Ten Canal Park*
-*Cambridge, MA 02141*
-\**University of Massachusetts at Boston*
+*Interleaf, Inc.*\
+*Ten Canal Park*\
+*Cambridge, MA 02141*\
+\**University of Massachusetts at Boston*\
 *Harbor Campus* *Boston, MA 02125*
 
 ABSTRACT: An extensible, object-oriented system for describing and executing active documents is discussed. An existing commercial, structured document processing system was extended with a run-time bindable object system and Lisp interpreter.
