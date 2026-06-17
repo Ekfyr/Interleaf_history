@@ -2,7 +2,7 @@
 
 # Connecting to a Relational Database Application from Interleaf 5 Using Lisp
 
-**Charles Dale**
+**Charles Dale**\
 *Member of the Technical Staff, Interleaf, Inc.*
 
 ----
@@ -21,7 +21,7 @@ All of these entities — objects, object types, users, groups, and vaults — a
 
 Figure 1 illustrates this architecture.
 
-![Figure 1. RDM Process Architecture](https://i.postimg.cc/ncsQB8tX/Figure-1-RDM-Process-Architecture.png)
+![Figure 1. RDM Process Architecture](/img/Figure_1_RDM_Process_Architecture.png)
 
 The design of the RDM API was strongly influenced by the Lisp **read-eval-print loop**. This influence is evident in the fact that the RDM Command Interpreter includes limited Lisp **READ** and **PRINT** modules capable of handling atoms (without package prefixes), strings (with slashification), numbers, and nested list structure. As will be seen, this is sufficient to communicate the entire range of RDM requests and responses. With **READ** and **PRINT** as the common denominator, communications between the Command Interpreter and I5 are established using **character streams**. The first time a user invokes RDM, I5 automatically starts the Command Interpreter as a separate process and connects its standard input and standard output to I5 Lisp streams. I5 then makes RDM calls using **print** on the Command Interpreter's input stream and receives the returned data using **read** on its output stream.
 
@@ -56,7 +56,7 @@ To make access to the API more Lisp-like, we defined a **Lisp API layer** that m
 
 Figure 2 shows how the Lisp API fits into the overall RDM architecture. 
 
-![Figure 2. RDM Process Architecture with Lisp API](https://i.postimg.cc/9F4qZ3jr/Figure-2-RDM-Process-Architecture-with-Lisp-API.png)
+![Figure 2. RDM Process Architecture with Lisp API](/img/Figure_2_RDM_Process_Architecture_with_Lisp_API.png)
 
 A macro called `handling-api-errors` is provided to make programming with Lisp API functions more transparent. The Lisp API can be called multiple times within a single `handling-api-errors` form. By default, each API call runs as a separate transaction, but calls can be grouped into a single transaction by using the `open-transaction`, `commit`, and `rollback` API calls. `handling-api-errors` catches the `rdm-api-error` condition and performs error recovery, optionally calling `rollback`. It also starts the Command Interpreter process if it is not already running. Inside `handling-api-errors`, programs use the Lisp API functions like any other Lisp functions.
 
@@ -117,5 +117,9 @@ The Lisp environment in **Interleaf 5** has allowed us to build a very powerful 
 
 ---
 
-*© 1992 Interleaf, Inc.
+*© 1992 Interleaf, Inc.\
 All rights reserved.*
+
+----
+
+Source: https://dl.acm.org/doi/pdf/10.1145/1040030.174187
