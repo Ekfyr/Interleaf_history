@@ -8,9 +8,9 @@ ELECTRONIC PUBLISHING, VOL. 7(2), 75-87 (JUNE 1994)
 
 PAUL M. ENGLISH AND RAMAN TENNETI
 
-*Interleaf, Inc. 9 Hillside Ave*
-*Waltham, MA 02154, USA*
-*email:* pme@ileaf.com raman@ileaf.com
+*Interleaf, Inc. 9 Hillside Ave*\
+*Waltham, MA 02154, USA*\
+*email:* pme@ileaf.com raman@ileaf.com\
 
 **SUMMARY**
 **A commercial structured document processing system has been built with an extensible object system. This system is an excellent platform for the design, implementation, and delivery of active documents. Examples are discussed.**
@@ -75,7 +75,7 @@ In prior releases of the system, template maintenance was time-consuming and err
 
 The template documents contain tables of localization information, including the names of all components as well as values for localized variables such as page size. See Figure 1.
 
-![Figure 1. A template localization table](https://i.postimg.cc/mgkm8pSd/iad-000.png)
+![Figure 1. A template localization table](/img/iad-000.png)
 
 *Figure 1. A template localization table*
 
@@ -141,7 +141,7 @@ CoAuthor is a self-learning proofreading tool used to check spelling, punctuatio
 
 The CoAuthor UI is implemented by a document beyond the lines described by Bier and Goodisman \[7\], as it has implemented a complete widget set using document objects. These include standard UI elements such as push buttons, toggle and radio buttons, text entry fields, and scrolling lists. See Figure 2.
 
-![Figure 2. CoAuthor active document UI](https://i.postimg.cc/RhfB6VWC/iad-001.png)
+![Figure 2. CoAuthor active document UI](/img/iad-001.png)
 
 *Figure 2. CoAuthor active document UI*
 
@@ -311,4 +311,4 @@ CCC 0894-3982/94/020075-13 *Received 5 April 1993*
 
 ----
 
-!!! info Source: **Inteleaf Active Documents, Electronic Publishing, vol. 7(2), pp. 75-87 (June 1994).** https://paulenglish.com/interleaf/interleaf-active-documents.pdf
+Source: **Inteleaf Active Documents, Electronic Publishing, vol. 7(2), pp. 75-87 (June 1994).** https://paulenglish.com/interleaf/interleaf-active-documents.pdf
