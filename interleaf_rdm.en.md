@@ -122,4 +122,4 @@ All rights reserved.*
 
 ----
 
-Source: https://dl.acm.org/doi/pdf/10.1145/1040030.174187
+Source: [https://dl.acm.org/doi/pdf/10.1145/1040030.174187](https://dl.acm.org/doi/pdf/10.1145/1040030.174187)
