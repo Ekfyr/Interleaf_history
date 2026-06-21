@@ -305,3 +305,7 @@ Interleaf 5 is also a foremost example of extendible software that enables cleve
 What remains is for Interleaf to prove that Interleaf 5 works, and that the company can thrive in its new role of software developer *cum* system integrator. It has won several multimillion-dollar contracts based on its technology, and installed a few at customer sites, examples of which were shown at the Conference. But it has yet to begin volume production. When it docs in a few months, Interleaf will have the chance to dispel its skeptics and separate itself from its competition.
 
 *Mark Walter*
+
+----
+
+Source: https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf
