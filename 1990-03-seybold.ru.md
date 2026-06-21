@@ -308,4 +308,4 @@ Interleaf 5 также является ярким примером расшир
 ----
 
 Машинный перевод, 2026\
-Источник: https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf
+Источник: [https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf](https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf)
