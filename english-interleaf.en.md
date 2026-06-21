@@ -141,12 +141,12 @@ Using the same string handling facility, the user has demonstrated documents tha
          cell-list cost-list)
 
        ;; The data editor, file name and filter name have been
-       ;; read from the object. Now run the program
-       ;; named by data-editor on the file named by data-file\...
+       ;;  read from the object. Now run the program
+       ;;  named by data-editor on the file named by data-file...
        (proc-wait (proc-create data-editor data-file))
 
        ;; External edit completed and data-file rewritten,
-       ;; so parse it with function named by data-filter\...
+       ;;  so parse it with function named by data-filter...
        (setq cell-list (funcall (find-symbol data-filter) data-file))
 
        ;; Now cell-list reflects the spreadsheet.
