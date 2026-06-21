@@ -141,14 +141,14 @@
          cell-list cost-list)
 
        ;; Редактор данных, имя файла и имя фильтра были
-       ;; прочитаны из объекта. Теперь запустим программу,
-       ;; указанную в data-editor, для файла,
-       ;; указанного в data-file...
+       ;;  прочитаны из объекта. Теперь запустим программу,
+       ;;  указанную в data-editor, для файла,
+       ;;  указанного в data-file...
        (proc-wait (proc-create data-editor data-file))
 
        ;; Внешнее редактирование завершено, файл data-file
-       ;; был перезаписан, поэтому разберём его с помощью
-       ;; функции, имя которой указано в data-filter...
+       ;;  был перезаписан, поэтому разберём его с помощью
+       ;;  функции, имя которой указано в data-filter...
        (setq cell-list (funcall (find-symbol data-filter) data-file))
 
        ;; Теперь cell-list отражает содержимое электронной таблицы.
@@ -156,11 +156,11 @@
        (setq cost-list (make-cost-list cell-list "TOTAL:"))
 
        ;; Обновим различные объектные представления data-file
-       ;; в документе...
+       ;;  в документе...
        (rebuild-chart (get-first-chart diagram) cost-list)
        (rebuild-table (get-first-table diagram) cost-list)
        (rebuild-graphic (get-first-graphic diagram) cost-list)
-       (tell diagram mid:draw))) ; Перерисовать изменённую диаграмму
+       (tell diagram mid:draw))) ;Перерисовать изменённую диаграмму
 
 (defun get-first-chart (diagram)
   (let ((chart (tell diagram mid:get-child :along structure)))
