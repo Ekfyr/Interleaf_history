@@ -10,7 +10,7 @@ PAUL M. ENGLISH AND RAMAN TENNETI
 
 *Interleaf, Inc. 9 Hillside Ave*\
 *Waltham, MA 02154, USA*\
-*email:* pme@ileaf.com raman@ileaf.com\
+*email:* pme@ileaf.com raman@ileaf.com
 
 **SUMMARY**
 **A commercial structured document processing system has been built with an extensible object system. This system is an excellent platform for the design, implementation, and delivery of active documents. Examples are discussed.**
