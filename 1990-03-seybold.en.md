@@ -36,7 +36,6 @@ From a hardware perspective, the Interleaf 5 engine is being offered on Sun, DEC
 
 ----
 
-> [!NOTE]
 > Interleaf's engine is composed of discrete objects that may be pieced together—and extended—through LISP.
 
 ----
@@ -155,7 +154,6 @@ For example, a drawing may be created in which one element is repeated numerous 
 
 ----
 
-> [!NOTE]
 > The real power of Interleaf 5 is that LISP code may be attached to objects as an attribute.
 
 ----
