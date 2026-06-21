@@ -216,4 +216,5 @@
 
 ----
 
-Источник: **An extensible, object-oriented system for active documents**, Proceedings of the International Conference on Electronic Publishing, 1990, pp. 263-276. https://paulenglish.com/interleaf/english-interleaf.pdf
+Источник: **An extensible, object-oriented system for active documents**, Proceedings of the International Conference on Electronic Publishing, 1990, pp. 263-276.\
+[https://paulenglish.com/interleaf/english-interleaf.pdf](https://paulenglish.com/interleaf/english-interleaf.pdf)
