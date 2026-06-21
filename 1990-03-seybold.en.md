@@ -306,4 +306,4 @@ What remains is for Interleaf to prove that Interleaf 5 works, and that the comp
 
 ----
 
-Source: https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf
+Source: [https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf](https://history.computer.org/annals/dtp/interleaf/1990-03-seybold.pdf)
