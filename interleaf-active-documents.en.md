@@ -311,4 +311,4 @@ CCC 0894-3982/94/020075-13 *Received 5 April 1993*\
 
 ----
 
-Source: **Inteleaf Active Documents, Electronic Publishing, vol. 7(2), pp. 75-87 (June 1994).** https://paulenglish.com/interleaf/interleaf-active-documents.pdf
+Source: **Inteleaf Active Documents, Electronic Publishing, vol. 7(2), pp. 75-87 (June 1994).** [https://paulenglish.com/interleaf/interleaf-active-documents.pdf](https://paulenglish.com/interleaf/interleaf-active-documents.pdf)
